@@ -1,0 +1,43 @@
+body {
+  background: #f4f6f8;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 60px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  color: #2563eb;
+  margin-bottom: 20px;
+}
+
+.topic-list {
+  list-style: none;
+  padding: 0;
+}
+
+.topic-list li {
+  background: #f1f5f9;
+  margin-bottom: 12px;
+  padding: 12px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.topic-list li:hover {
+  background: #2563eb;
+  color: white;
+  transform: translateX(5px);
+}
+
+.topic-list span {
+  font-weight: bold;
+}
